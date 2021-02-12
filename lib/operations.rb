@@ -9,15 +9,3 @@
       #returns true if the speed is less than 40
       #returns false if the speed is between 40 and 60
       #uses the ternary operator
-
-def unsafe?(speed)
-  if  speed>=40 && speed<=60
-    false
-  else
-    true
-  end
-end
-
-def not_safe?(speed)
-  speed < 40 || speed > 60? true : false
-end
