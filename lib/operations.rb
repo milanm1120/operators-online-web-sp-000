@@ -18,13 +18,13 @@ def unsafe?(speed)
   end
 end
 
-puts unsafe?(75)
-puts unsafe?(55)
+# puts unsafe?(75)
+# puts unsafe?(55)
 
 
 def not_safe?(speed)
   speed < 40 || speed > 60 ? "true" : "false"
 end
 
-puts not_safe?(75)
-puts not_safe?(55)
+# puts not_safe?(75)
+# puts not_safe?(55)
