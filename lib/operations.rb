@@ -15,3 +15,5 @@ def unsafe(speed)
     "true"
   end
 end
+
+puts speed(75)
