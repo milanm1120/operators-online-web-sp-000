@@ -9,3 +9,7 @@
       #returns true if the speed is less than 40
       #returns false if the speed is between 40 and 60
       #uses the ternary operator
+
+def unsafe(speed)
+
+end
