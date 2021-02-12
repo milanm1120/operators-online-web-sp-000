@@ -10,10 +10,13 @@
       #returns false if the speed is between 40 and 60
       #uses the ternary operator
 
-def unsafe(speed)
+def unsafe?(speed)
   if speed < 40 || speed >60
     "true"
+  else
+    "false"
   end
 end
 
-puts unsafe(75)
+puts unsafe?(75)
+puts unsafe?(55)
