@@ -24,3 +24,6 @@ puts unsafe?(55)
 
 def not_safe?(speed)
   speed < 40 || speed > 60 ? "true" : "false"
+
+puts unsafe?(75)
+puts unsafe?(55)
